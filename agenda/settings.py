@@ -33,7 +33,7 @@ SECRET_KEY = os.environ.get(
 
 DEBUG = os.environ.get('DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = ['a-gendaa.herokuapp.com']
+ALLOWED_HOSTS = ['a-gendaa.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
